@@ -41,17 +41,20 @@ Or double-click `啟動設定工具.bat`.
 Requires Windows for the volume/auto-start integration (`windows_runtime.py`);
 the protocol layer itself is platform independent.
 
-繁體中文說明：[README.zh-TW.md](README.zh-TW.md)
+Traditional Chinese: [README.zh-TW.md](README.zh-TW.md)
 
 
 ## License
 
-本專案程式碼以 MIT 授權釋出，見 [LICENSE](LICENSE)。
+MIT. See [LICENSE](LICENSE).
 
-HID 協定是從原廠工具的行為觀察還原後**重新實作**的，未包含原廠任何程式碼或韌體。
-`MINI KeyBoard` 與相關商標屬其各自持有人；本專案與原廠無關聯、未經其背書。
+The HID protocol was **reimplemented** from observed behaviour of the vendor
+tool; no vendor code or firmware is included. `MINI KeyBoard` and related marks
+belong to their respective owners. This project is not affiliated with or
+endorsed by them.
 
-## 免責聲明
+## Disclaimer
 
-實機模式會寫入鍵盤的設定記憶體。雖然寫入前一律顯示封包預覽並要求確認，
-仍請自行承擔風險——本專案作者不對硬體損壞負責。
+Hardware mode writes to the keyboard's configuration memory. Every write shows
+a packet preview and asks for confirmation first, but you use it at your own
+risk — the author is not liable for damaged hardware.
