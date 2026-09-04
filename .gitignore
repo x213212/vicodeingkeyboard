@@ -5,3 +5,6 @@ __pycache__/
 
 # runtime state written by the app
 設定檔.json
+
+# per-user macro text, written by the app
+文字巨集.json

@@ -14,6 +14,13 @@ original `MINI KeyBoard.exe` is never launched.
 
 ![Qt 介面](qt_preview.png)
 
+## Configuration
+
+Copy `文字巨集.example.json` to `文字巨集.json` and edit it, or just set the text in
+the GUI — the app writes that file itself. Both `文字巨集.json` (your macro text)
+and `設定檔.json` (window and layer state) are per-user runtime data and are
+git-ignored.
+
 ## Protocol
 
 The vendor tool speaks 64-byte HID output reports. `mini_keyboard/protocol.py`
